@@ -1,0 +1,15 @@
+{
+  "name": "mernproject",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "eCommerce application built using MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Aman Gill",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
