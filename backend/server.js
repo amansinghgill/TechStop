@@ -1,5 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
+import cookieParser from "cookie-parser";
 dotenv.config();
 import connectDB from "./config/db.js";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
@@ -23,9 +24,12 @@ app.listen(port, () => console.log(`Server running on port ${port}`));
 app.use("/api/products", productRoutes);
 app.use("/api/users", userRoutes);
 
-//Body parser Middleware
+//Body parser middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+//Cookie parser middleware
+app.use(cookieParser());
 
 // Middleware to handle 404 Not Found errors
 app.use(notFound);
