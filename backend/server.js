@@ -1,12 +1,12 @@
-import express from "express"; // Importing the express library to create the server
-import dotenv from "dotenv"; // Importing dotenv to handle environment variables
-import cookieParser from "cookie-parser"; // Importing cookie-parser to parse cookies in requests
-dotenv.config(); // Configuring dotenv to load environment variables from a .env file
+import express from "express";
+import dotenv from "dotenv";
+import cookieParser from "cookie-parser";
+dotenv.config();
 
-import connectDB from "./config/db.js"; // Importing the database connection function
-import productRoutes from "./routes/productRoutes.js"; // Importing the product routes
-import userRoutes from "./routes/userRoutes.js"; // Importing the user routes
-import { notFound, errorHandler } from "./middleware/errorMiddleware.js"; // Importing custom error handling middleware
+import connectDB from "./config/db.js";
+import productRoutes from "./routes/productRoutes.js";
+import userRoutes from "./routes/userRoutes.js";
+import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 
 const port = process.env.PORT || 5000; // Setting the port from environment variables or default to 5000
 
