@@ -27,28 +27,27 @@ app.use("/api/users", userRoutes);
 app.use("/api/orders", orderRoutes);
 app.use("/api/upload", uploadRoutes);
 
+// Route for sending PayPal client ID
 app.get("/api/config/paypal", (req, res) =>
   res.send({ clientId: process.env.PAYPAL_CLIENT_ID })
 );
 
-const __dirname = path.resolve();
-app.use("/uploads", express.static(path.join(__dirname, "/uploads")));
+const __dirname = path.resolve(); // Resolve the current directory
+app.use("/uploads", express.static(path.join(__dirname, "/uploads"))); // Serve static files from the uploads directory
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "/frontend/build")));
+  app.use(express.static(path.join(__dirname, "/frontend/build"))); // Serve static files from the React frontend build directory in production
 
+  // Serve the index.html file for any unknown routes in production
   app.get("*", (req, res) =>
     res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"))
   );
 } else {
+  // Root route that sends a simple response in development
   app.get("/", (req, res) => {
     res.send("API is running....");
   });
 }
-
-app.get("/", (req, res) => {
-  res.send("API is running..."); // Root route that sends a simple response
-});
 
 // Middleware for handling 404 errors
 app.use(notFound);
