@@ -15,10 +15,10 @@ TechStop is a mock e-commerce website selling tech products. This project is bui
 
 Visit TechStop [here](https://techstop-sfgo.onrender.com/) to experience the tools firsthand. Below, you will find screenshots of the application.
 
-![Homepage Example](https://github.com/amansinghgill/TechStop/assets/90486946/997018a8-a0b2-4742-aa7e-4369525cdc24)
-![Order Details Example](https://github.com/amansinghgill/TechStop/assets/90486946/a26cf452-3772-41e0-b459-62e69f3a54fb)
-![Managing Products Example](https://github.com/amansinghgill/TechStop/assets/90486946/b54fd764-0b44-4614-b3a2-566208ff6ff8)
-![Managing Orders Example](https://github.com/amansinghgill/TechStop/assets/90486946/d38fbbb8-c7f9-4218-8b23-76039189db82)
+<img src="https://github.com/amansinghgill/TechStop/assets/90486946/997018a8-a0b2-4742-aa7e-4369525cdc24" alt="UI" width="600px" style="margin: 0 auto; display: block;">
+<img src="https://github.com/amansinghgill/TechStop/assets/90486946/a26cf452-3772-41e0-b459-62e69f3a54fb" alt="UI" width="600px" style="margin: 0 auto; display: block;">
+<img src="https://github.com/amansinghgill/TechStop/assets/90486946/b54fd764-0b44-4614-b3a2-566208ff6ff8" alt="UI" width="600px" style="margin: 0 auto; display: block;">
+<img src="https://github.com/amansinghgill/TechStop/assets/90486946/d38fbbb8-c7f9-4218-8b23-76039189db82" alt="UI" width="600px" style="margin: 0 auto; display: block;">
 
 ## Tech Stack
 
