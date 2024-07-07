@@ -1,3 +1,4 @@
+
 # TechStop
 
 TechStop is a mock e-commerce website selling tech products. This project is built using the MERN stack (MongoDB, Express, React, Node.js) and showcases the essential functionalities of an e-commerce web app. The website is hosted on Render.
@@ -15,10 +16,9 @@ TechStop is a mock e-commerce website selling tech products. This project is bui
 
 Visit TechStop [here](https://techstop-sfgo.onrender.com/) to experience the tools firsthand. Below, you will find screenshots of the application.
 
-<img src="https://github.com/amansinghgill/TechStop/assets/90486946/997018a8-a0b2-4742-aa7e-4369525cdc24" alt="UI" width="600px" style="margin: 0 auto; display: block;">
-<img src="https://github.com/amansinghgill/TechStop/assets/90486946/a26cf452-3772-41e0-b459-62e69f3a54fb" alt="UI" width="600px" style="margin: 0 auto; display: block;">
-<img src="https://github.com/amansinghgill/TechStop/assets/90486946/b54fd764-0b44-4614-b3a2-566208ff6ff8" alt="UI" width="600px" style="margin: 0 auto; display: block;">
-<img src="https://github.com/amansinghgill/TechStop/assets/90486946/d38fbbb8-c7f9-4218-8b23-76039189db82" alt="UI" width="600px" style="margin: 0 auto; display: block;">
+![Homepage Example](https://github.com/amansinghgill/TechStop/assets/90486946/997018a8-a0b2-4742-aa7e-4369525cdc24)
+![Order Details Example](https://github.com/amansinghgill/TechStop/assets/90486946/a26cf452-3772-41e0-b459-62e69f3a54fb)
+![Managing Orders Example](https://github.com/amansinghgill/TechStop/assets/90486946/d38fbbb8-c7f9-4218-8b23-76039189db82)
 
 ## Tech Stack
 
@@ -42,14 +42,12 @@ To get a local copy up and running, follow these steps:
 ### Installation
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/amansinghgill/TechStop.git
    cd TechStop
    ```
 
 2. Install the dependencies:
-
    ```bash
    npm install
    ```
@@ -65,7 +63,6 @@ To get a local copy up and running, follow these steps:
    ```
 
 4. Run the application:
-
    ```bash
    npm run dev
    ```
@@ -74,3 +71,4 @@ To get a local copy up and running, follow these steps:
    ```
    http://localhost:3000
    ```
+
