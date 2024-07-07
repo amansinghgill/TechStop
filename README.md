@@ -25,10 +25,7 @@ Visit TechStop [here](https://techstop-sfgo.onrender.com/) to experience the too
 - **Frontend**: React
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Authentication**: bcrypt
-- **Payment Integration**: PayPal Sandbox
-- **Hosting**: Render
-
+  
 ## Getting Started
 
 To get a local copy up and running, follow these steps:
